@@ -1,0 +1,535 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-link {
+    text-transform: inherit;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px lightblue;
+}
+
+ .btn {
+     border: none;
+     margin-right: 20px;
+ }
+
+ .btn:hover {
+     background-color:lightgray;
+ }
+
+ .dropdown .dropdown-toggle:hover {
+     border-radius: 10px;
+     background-color: lightgray;
+ }
+ 
+ .dropdown-menu-right {
+     text-align: center;
+     margin-right: 7px;
+ }
+ /* end Navbar */
+
+ /* Home */
+ .jumbotron {
+     background-color: lightblue;
+ }
+
+ .jumbtron2 {
+     background-color: #cfd8dc;
+     margin-top: -2.3%;
+     padding-bottom: 20px;
+     padding-top: 35px;
+ }
+
+ .card-img-top {
+     width: 80%;
+ }
+
+ .display3 {
+    margin-top: 100px;
+ }
+
+ .hr1 {
+     margin-right: 80px;
+ }
+ .hr2 {
+     margin-right: 80px;
+ }
+
+ .diplain {
+     padding: 23px;
+ }
+ .form-inline .diplain {
+     width: 330px;
+ }
+
+ .item {
+    margin-right: 60px;
+}
+
+ .btns {
+     background-color: #673ab7;
+     padding: 10px;
+ }
+
+ .btns:hover {
+     background-color: #673ab7;
+ }
+
+ .display-4 {
+    font-weight: 600;
+ }
+
+ /* Gambar Selengkapnya Dll */
+ .baca_selengkapnya{
+    color:blue;
+    cursor: pointer;
+  }
+
+ .baca_selengkapnya1{
+    color:blue;
+    cursor: pointer;
+  }
+ .baca_selengkapnya2{
+    color:blue;
+    cursor: pointer;
+  }
+ .baca_selengkapnya3{
+    color:blue;
+    cursor: pointer;
+  }
+
+  /* .card-header1 {
+      width: 190%;
+  } */
+
+  h5 .card-title {
+    margin-left: 20px;
+  }
+
+  .image2 {
+      margin-left: -4%;
+  }
+
+  div .cda {
+    margin-top: 49px;
+    
+  }
+
+  .card-img {
+    margin-left: -4%;
+  }
+
+  .button_selengkapnya  {
+    margin-left: 32%;  
+  }
+
+  .selanjutnya {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  /* Info Hidup Sehat */
+  /* Jumbotron and Card */
+  .card-img-top {
+      width: 500px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .selengkapnya {
+    color:blue;
+    cursor: pointer;
+  }
+  .selengkapnya1 {
+    color:blue;
+    cursor: pointer;
+  }
+  .selengkapnya2 {
+    color:blue;
+    cursor: pointer;
+  }
+  .warna__1 {
+      color: white;
+  }
+  .button_selengkapnya1  {
+    margin-left: 34.5%;  
+  }
+
+  .selanjutnya1 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya1:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+
+
+/* Mobile Version */
+@media (max-width: 580px) {
+    /* Navbar */
+    .nav-link {
+        text-transform: inherit;
+        margin-right: 30px;
+    }
+    .navbar-nav {
+        margin-right: 50%;
+    }
+    .dropdown-menu-right {
+        text-align: center;
+        margin-right: 7px;
+    }
+    .dropdown .dropdown-toggle:hover {
+        border-radius: 10px;
+        background-color: lightgray;
+        margin-right: 50%;
+    }
+    .dropdown-menu .dropdown-item:hover {
+        background-color: lightgray;
+    }
+    .dropdown-menu .dropdown-item {
+        text-align: center;
+    }
+    .dropdown-menu {
+        margin-top: 5px;
+    }
+    .btn {
+        border: none;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .text-body {
+        margin-top: 5px;
+    }
+    /* Home */
+    .jumbotron {
+        background-color: lightblue;
+    }
+    .jumbtron2 {
+        background-color: #cfd8dc;
+        margin-top: -6.6%;
+        padding-top: 40px;
+    }
+    .macam_penyakit .item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .btns {
+        background-color: #673ab7;
+        color: white;
+      
+        padding: 9px;
+    }
+    .btns:hover {
+        background-color: #673ab7;
+        color: black;
+    }
+    .diplain {
+        width: 432px;
+        height: 20px;
+        padding: 23px;
+    }
+    .hr1 {
+        margin-right: 30px;
+    }
+    .hr2 {
+        margin-right: 30px;
+    }
+    .display-4 {
+        font-weight: 600;
+    }
+
+    /* Gambar Selengkapnya DLL */
+
+    div .cds {
+        margin-top: 5%;
+    }
+    div .cda {
+        margin-top: 25px;
+        /* background-color: cyan; */
+    }
+    .button_selengkapnya  {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;  
+    }
+
+    /* Info hidup sehat */
+    /* Jumbotron and card */
+
+    .card-img-top {
+        width: 400px;
+    }
+    div .gmbr {
+        width: 340px;
+    }
+    div .card-hdr {
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    div .card-hdrs {
+        margin-right: 10px;
+    }
+    .button_selengkapnya1 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+}
+
+/* Tablet Version */
+@media (max-width: 772px) {
+    /* Navbar */
+    .nav-link {
+        text-transform: inherit;
+        margin-right: 30px;
+    }
+    .navbar-nav {
+        margin-right: 50%;
+    }
+    .dropdown-menu-right {
+        text-align: center;
+        margin-right: 7px;
+    }
+    .dropdown .dropdown-toggle:hover {
+        border-radius: 10px;
+        background-color: lightgray;
+        margin-right: 50%;
+    }
+    .dropdown-menu .dropdown-item:hover {
+        background-color: lightgray;
+    }
+    .btn {
+        border: none;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .dropdown-menu .dropdown-item {
+        text-align: center;
+    }
+    .dropdown-menu {
+        margin-top: 5px;
+    }
+    /* Jumbotron */
+
+    .jumbtron2 {
+        background-color: #cfd8dc;
+        margin-top: -6.6%;
+        padding-top: 30px;
+    }
+    .diplain {
+        margin-right: 0px;
+        margin-top: 5px;
+        width: 300px;
+    }
+    .macam_penyakit .item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .btr {
+        padding: 11px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+} */
+
+/* Navbar */
+/* nav {
+    display: flex;
+    background-color: rgb(237, 243, 245);
+    justify-content: space-around;
+    height: 50px;
+    color: black;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(49, 82, 90);
+    text-decoration: none;
+} */
+
+/* Menu Navbar */
+
+/* .menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: rgb(10, 18, 19);
+    border-radius: 3px;
+}
+
+.data-model {
+    text-align: right;
+} */
+
+/* Animasi Navbar */
+
+/* .menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    background-color: rgb(14, 12, 12);
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+    background-color: rgb(7, 5, 5);
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0)
+} */
+
+/* Responsive via Tablet*/
+
+/* @media (max-width: 768px) { 
+    nav ul {
+        width: 50%;
+        
+    }
+} */
+
+/* Responsive via Mobile*/
+
+/* @media (max-width: 590px) {
+
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40%;
+        height: 80vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(237, 243, 245);
+        z-index: 0;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .card {
+        display: inline-block;
+        padding-top: -20px;
+    }
+} */
+
+
+
+
+
+
+
+
