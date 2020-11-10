@@ -19,6 +19,11 @@ Route::get('/infohidupsehat', 'KesehatanController@index');
 
 Route::get('/nutrisi_makanan', 'NutrisiMakananController@nutrisiMakanan');
 
+Route::get('/infokesehatanterbaru', 'KesehatanTerbaruController@index');
+
+Route::get('/gejalapenyakit', 'GejalaPenyakitController@index');
+
+Route::get('/caramengatasi', 'CaraMengatasiPenyakitController@index');
 
 // Route::get('/login', 'LoginController@index')->name('login');
 // Route::post('/login', 'LoginController@cekLogin')->name('login.cekLogin');

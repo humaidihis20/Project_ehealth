@@ -101,7 +101,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item {{ Request::is('nutrisi_makanan') ? 'active' : '' }}" href="{{ url('/nutrisi_makanan') }}">Nutrisi & Makanan</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item {{ Request::is('kesehatan_terbaru') ? 'active' : '' }}" href="{{ url('/kesehatan_terbarua') }}">Info Kesehatan Terbaru</a>
+                <a class="dropdown-item {{ Request::is('infokesehatanterbaru') ? 'active' : '' }}" href="{{ url('/infokesehatanterbaru') }}">Info Kesehatan Terbaru</a>
               </div>
             </li>
             <li class="nav-item dropdown drop2">
@@ -109,11 +109,11 @@
                 Info Penyakit
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Gejala Penyakit</a>
+                <a class="dropdown-item {{ Request::is('gejalapenyakit') ? 'active' : '' }}" href="{{ url('/gejalapenyakit') }}">Gejala Penyakit</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Cara Mengatasi</a>
+                <a class="dropdown-item {{ Request::is('caramengatasi') ? 'active' : '' }}" href="{{ url('/caramengatasi') }}">Cara Mengatasi</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Obat</a>
+                <a class="dropdown-item {{ Request::is('infoobat') ? 'active' : '' }}" href="{{ url('/infoobat') }}">Obat</a>
               </div>
             </li>
             <li class="nav-item dropdown drop3">

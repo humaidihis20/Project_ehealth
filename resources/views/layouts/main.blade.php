@@ -86,6 +86,7 @@
               $(this).hide();
             })
           });
+
             $(document).ready(function() {
             $(".pesan1").hide();
             $(".selengkapnya").click(function(){
@@ -93,6 +94,7 @@
               $(this).hide();
             })
           });
+
             $(document).ready(function() {
             $(".pesan2").hide();
             $(".selengkapnya1").click(function(){
@@ -100,6 +102,7 @@
               $(this).hide();
             })
           });
+
             $(document).ready(function() {
             $(".pesan3").hide();
             $(".selengkapnya2").click(function(){
@@ -107,6 +110,103 @@
               $(this).hide();
             })
           });
+
+            $(document).ready(function() {
+            $(".pesan4").hide();
+            $(".selengkapnya3").click(function(){
+              $(".pesan4").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan5").hide();
+            $(".selengkapnya4").click(function(){
+              $(".pesan5").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan6").hide();
+            $(".selengkapnya5").click(function(){
+              $(".pesan6").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan7").hide();
+            $(".selengkapnya6").click(function(){
+              $(".pesan7").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan8").hide();
+            $(".selengkapnya7").click(function(){
+              $(".pesan8").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan9").hide();
+            $(".selengkapnya8").click(function(){
+              $(".pesan9").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan10").hide();
+            $(".selengkapnya9").click(function(){
+              $(".pesan10").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan11").hide();
+            $(".selengkapnya10").click(function(){
+              $(".pesan11").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan12").hide();
+            $(".selengkapnya11").click(function(){
+              $(".pesan12").slideDown('slow');
+              $(this).hide();
+            })
+          });
+          
+            $(document).ready(function() {
+            $(".pesan13").hide();
+            $(".selengkapnya12").click(function(){
+              $(".pesan13").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan14").hide();
+            $(".selengkapnya13").click(function(){
+              $(".pesan14").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan15").hide();
+            $(".selengkapnya14").click(function(){
+              $(".pesan15").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
         })
   </script>
   {{-- @yield('sricpts') --}}

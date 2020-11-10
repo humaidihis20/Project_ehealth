@@ -111,10 +111,6 @@
     cursor: pointer;
   }
 
-  /* .card-header1 {
-      width: 190%;
-  } */
-
   h5 .card-title {
     margin-left: 20px;
   }
@@ -182,6 +178,145 @@
       background-color: #673ab7;
       color:black;
   }
+
+  div .cards {
+      color: white;
+  }
+
+  .selengkapnya3 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya4 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .cards2 {
+      width: 60%;
+  }
+
+  .selengkapnya5 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .button_selengkapnya2  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya2 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya2:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  /* Info Kesehatan terbaru */
+  /* Jumbotron and Card */
+
+  .cards2 {
+    width: 60%;
+  }
+
+  .selengkapnya6 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya7 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya8 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .button_selengkapnya3  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya3 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya3:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  /* Info Penaykit */
+  /* Jumbotron and Card */
+
+  .selengkapnya9 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya10 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya11 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .button_selengkapnya4  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya4 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya4:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  /* Info Cara Mengatasi */
+  /* Jumbotron and Card */
+
+  .selengkapnya12 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya13 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya14 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .button_selengkapnya5  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya5 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya5:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+
 
 
 
@@ -295,6 +430,95 @@
         text-align: center;
         color: #673ab7;     
     }
+    .img3 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr1 {
+        margin-top: 5%;
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .img4 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr2 {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .button_selengkapnya2 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+    .img5 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr3 {
+        margin-top: 5%;
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .img6 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr4 {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .button_selengkapnya3 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+    .img7 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr5 {
+        margin-top: 5%;
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .img8 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr6 {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .button_selengkapnya4 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+    .img9 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr7 {
+        margin-top: 5%;
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .img10 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr8 {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .button_selengkapnya5 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+    
 }
 
 /* Tablet Version */
