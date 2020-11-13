@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', 'HomeKesehatanController@index');
+Route::get('/', 'HomeKesehatanController@index');
 
 Route::get('/infohidupsehat', 'KesehatanController@index');
 
@@ -24,6 +24,10 @@ Route::get('/infokesehatanterbaru', 'KesehatanTerbaruController@index');
 Route::get('/gejalapenyakit', 'GejalaPenyakitController@index');
 
 Route::get('/caramengatasi', 'CaraMengatasiPenyakitController@index');
+
+Route::get('/infoobat', 'InfoObatController@index');
+
+Route::get('/detailobat', 'DetailObatController@index');
 
 // Route::get('/login', 'LoginController@index')->name('login');
 // Route::post('/login', 'LoginController@cekLogin')->name('login.cekLogin');

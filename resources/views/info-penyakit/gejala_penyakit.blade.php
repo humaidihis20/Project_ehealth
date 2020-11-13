@@ -70,9 +70,20 @@
                   </div>
           </div>
     </div>
-        <div class="col-sm-9 button_selengkapnya4 mt-3">
+          <ul class="pagination justify-content-center mt-4">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        {{-- <div class="col-sm-9 button_selengkapnya4 mt-3">
           <a href="#" class="btn selanjutnya4">Selanjutnya</a>
-        </div>
+        </div> --}}
 </div>
 {{-- end Card --}}
 @endsection

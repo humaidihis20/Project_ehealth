@@ -85,8 +85,8 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-      <a class="navbar-brand" href="{{ url('/home') }}">
-        <img class="image" src="image/Avicenna.png"></a>
+      <a class="navbar-brand" href="{{ url('/') }}">
+        <img class="image" src="image/images3.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -121,7 +121,7 @@
                 Info Obat
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Detail Obat</a>
+                <a class="dropdown-item {{ Request::is('detailobat') ? 'active' : '' }}" href="{{ url('/detailobat') }}">Detail Obat</a>
               </div>
             </li>
             <li class="nav-item">

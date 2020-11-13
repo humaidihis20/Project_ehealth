@@ -53,7 +53,7 @@
      padding-top: 35px;
  }
 
- .card-img-top {
+ .cards_4 {
      width: 80%;
  }
 
@@ -316,7 +316,108 @@
       color:black;
   }
 
+  /*  Obat */
+  /* Jumbotron and Card */
 
+  .selengkapnya15 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya16 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .selengkapnya17 {
+    color:blue;
+    cursor: pointer;
+  }
+
+  .button_selengkapnya6  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya6 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya6:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  /* Detail Obat */
+  /* Jumbotron Dll */
+
+  div .atr {
+      width: 608px;
+      text-align: center;
+  }
+
+  .diplan {
+      text-align: center;
+  }
+
+  .btnh {
+      background-color: #673ab7;
+  }
+
+  .btnh:hover {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .img12 {
+      width: 300px;
+      margin-left: 2px;
+  }
+
+  .head_2 {
+    list-style: none;
+  }
+
+  .button_selengkapnya7  {
+    margin-left: 31.5%;  
+  }
+
+  .selanjutnya7 {
+      background-color: #673ab7;
+      color: white;
+  }
+
+  .selanjutnya7:hover {
+      background-color: #673ab7;
+      color:black;
+  }
+
+  
+  /* Footer */
+
+  .page-footer {
+      margin-top: 30px;
+      padding-bottom: 20px;
+      color: white;
+      background-color: lightblue;
+  }
+
+  .layanan {
+      list-style: none;
+  }
+
+  .avic {
+      list-style: none;
+  }
+  
+  .medsos {
+      list-style: none;
+     
+  }
+
+  /* .layanan:hover {
+      color: white;
+  } */
 
 
 
@@ -518,6 +619,43 @@
         text-align: center;
         color: #673ab7;     
     }
+    .img11 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr9 {
+        margin-top: 5%;
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .img12 {
+        width: 300px;
+        margin-left: 1px;
+    }
+    div .card-hdr10 {
+        margin-right: 20px;
+        margin-left: 16px;
+    }
+    .button_selengkapnya6 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
+    .btnh {
+        background-color: #673ab7;
+    }
+    div .atr {
+        width: 400px;
+        text-align: center;
+    }
+    .diplan {
+        text-align: center;
+    }
+    .button_selengkapnya7 {
+        margin-left: 10px;
+        text-align: center;
+        color: #673ab7;     
+    }
     
 }
 
@@ -574,6 +712,17 @@
         padding: 11px;
     }
    
+/* Detail Obat */
+    div .atr {
+        width: 400px;
+        text-align: center;
+    }
+    .diplan {
+        text-align: center;
+    }
+    .btnh {
+        background-color: #673ab7;
+    }
 }
 
 

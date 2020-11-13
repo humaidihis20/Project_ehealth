@@ -207,6 +207,30 @@
             })
           });
 
+            $(document).ready(function() {
+            $(".pesan16").hide();
+            $(".selengkapnya15").click(function(){
+              $(".pesan16").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan17").hide();
+            $(".selengkapnya16").click(function(){
+              $(".pesan17").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
+            $(document).ready(function() {
+            $(".pesan18").hide();
+            $(".selengkapnya17").click(function(){
+              $(".pesan18").slideDown('slow');
+              $(this).hide();
+            })
+          });
+
         })
   </script>
   {{-- @yield('sricpts') --}}

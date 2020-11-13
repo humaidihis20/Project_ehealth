@@ -36,7 +36,7 @@
           <img src="image/images.jpeg" class="card-img gambar1" alt="Responsive image">
         </div>
       
-        <div class="card-header col-sm-6 card-hdr ml-3">
+        <div class="card-header col-sm-7 card-hdr ml-3">
             <h2 class="card-title">
                 Pola Hidup Sehat Ternyata Mudah Dilakukan Siapa Saja, Coba Yuk!
             </h2>
@@ -60,7 +60,7 @@
           <img src="image/images.jpeg" class="card-img gambar1" alt="Responsive image">
         </div>
       
-        <div class="card-header col-sm-6 ml-3 mt-5 card-hdrs  my-1">
+        <div class="card-header col-sm-7 ml-3 mt-5 card-hdrs  my-1">
             <h2 class="card-title">
                 Ada 7 Tips Untuk Menghilangkan Mata Panda Dengan Cepat
             </h2>
@@ -80,9 +80,20 @@
           </div> 
         </div>
     </div>
-    <div class="col-sm-9 button_selengkapnya1 mt-3">
+        <ul class="pagination justify-content-center mt-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      {{-- <div class="col-sm-9 button_selengkapnya1 mt-3">
         <a href="#" class="btn selanjutnya1">Selanjutnya</a>
-      </div>
+      </div> --}}
 </div>
 {{-- end Card --}}
 @endsection

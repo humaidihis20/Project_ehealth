@@ -38,7 +38,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-sm-8">
-                    <img src="image/images.jpeg" class="card-img-top" height="400" alt="Responsive image">
+                    <img src="image/images.jpeg" class="card-img-top cards_4" height="400" alt="Responsive image">
                      <hr>
                       <div class="card-header mb-4 text-justify">
                         <h2 class="ml-2 mr-2">Penyebab Batuk Pilek Pada Anak</h2>
@@ -63,7 +63,7 @@
                       <img src="image/images.jpeg" class="card-img" alt="Responsive image">
                     </div>
 
-                    <div class="card-header col-sm-6 cds">
+                    <div class="card-header col-sm-8 cds">
                         <h2 class="card-title">Cara Menjaga Daya Tahan Tubuh di Masa Pandemi</h2>
                           <p class="card-text">
                             This is a wider card with supporting text below as a natural lead-in to additional content. 
@@ -85,7 +85,7 @@
                       <img src="image/images.jpeg" class="card-img image2" alt="Responsive image">
                     </div>
 
-                    <div class="card-header col-sm-6 cda">
+                    <div class="card-header col-sm-8 cda">
                           <h2 class="card-title">Gangguan Pada Pencernaan</h2>
                             <p class="card-text">
                               This is a wider card with supporting text below as a natural lead-in to additional content. 
@@ -107,7 +107,7 @@
                       <img src="image/images.jpeg" class="card-img image2" alt="Responsive image">
                     </div>
 
-                    <div class="card-header col-sm-6 cda">
+                    <div class="card-header col-sm-8 cda">
                           <h2 class="card-title">Macam-macam Buah dan Manfaatnya</h2>
                             <p class="card-text">
                                 This is a wider card with supporting text below as a natural lead-in to additional content. 
@@ -126,9 +126,21 @@
                     </div>
                   </div>
                 </div>
-                        <div class="col-sm-9 button_selengkapnya mt-3">
+              
+                  <ul class="pagination justify-content-center mt-4">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">Next</a>
+                    </li>
+                  </ul>
+                        {{-- <div class="col-sm-9 button_selengkapnya mt-3">
                           <a href="#" class="btn selanjutnya">Selanjutnya</a>
-                        </div>
-              </div>
+                        </div> --}}
+            </div>
 {{-- end Konten dan gambar --}}
 @endsection
